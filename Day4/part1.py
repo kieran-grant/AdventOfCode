@@ -13,6 +13,7 @@ def solution():
             else:
                 passports.append(buff)
                 buff = []
+        passports.append(buff)
 
     valid_passports = 0
     print( f"Num passports: {len(passports)}")
